@@ -173,36 +173,26 @@ body{
     border-radius: 16px;
     margin: 0 auto;
     margin-top: 120px;
-    margin-bottom: 100px;
+    padding: 145px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
 }
 
 .place-contain{
     width: 549px;
     height: 168px;
-    border: 2px solid red;
-    /* font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
-    text-align: center; 
-    margin: 0 auto; */
-    /* margin-top: 100px;
-    margin-left: 385px;
-    margin-right: 386px;
-    margin-bottom: 214px;  */
-    
-    /* align-items: center; */  
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    text-align: center;
+    padding-left: 30px 
 }
 
 .place-contain p{
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: capitalize;
 }
 
 #place1, #place2, #place3{
@@ -212,15 +202,16 @@ body{
 
 .btn{
     text-align: center;
-    width: 150px;
+    width: 140px;
     height: 50px;
     margin-top: 64px;
+    margin-left: 450px;
+    border-radius: 5px;
     align-items: center;
-    color: red;
+    background-color: red;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    /* margin: 0 auto; */
 }
 
 
@@ -232,6 +223,7 @@ body{
     /* border: 2px solid red; */
     margin: 0 auto;
     position: relative;
+    margin-top: 100px;
 }
 
 .holiday-text-container{
@@ -342,3 +334,50 @@ body{
 
 /* section footer starts here 
  */
+
+ .footer-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color:rgb(7, 2, 17);
+ }
+
+ .contact{
+    display: flex;
+    color: #ffffff;
+ }
+
+ .footer-first-section{
+    display: flex;
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ .hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ .icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: #ffffff;
+    height: 30px;
+    justify-content: space-between;
+ }
