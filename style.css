@@ -114,6 +114,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    margin-top: 80px;
 }
 
 .left-side-content{
@@ -163,3 +164,127 @@ body{
    width: 349.16px;
    height: 464.65px;
 }
+
+/* place section styles starts here */
+
+.place-container{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.place-contain{
+    width: 549px;
+    height: 168px;
+    border: 2px solid red;
+    /* font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center; 
+    margin: 0 auto; */
+    /* margin-top: 100px;
+    margin-left: 385px;
+    margin-right: 386px;
+    margin-bottom: 214px;  */
+    
+    /* align-items: center; */  
+}
+
+.place-contain p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#place1, #place2, #place3{
+    color: red;
+    /* text-align: center;  */
+} 
+
+.btn{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 64px;
+    align-items: center;
+    color: red;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin: 0 auto; */
+}
+
+
+/* holiday section styles start here */
+
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    border: 2px solid red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    width: 1068px;
+    margin: 0 auto;
+}
+
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-size: 500;
+}
+
+.holiday-text-container h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#holidays{
+    color: red;
+}
+
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
